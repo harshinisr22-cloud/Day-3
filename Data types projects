@@ -1,0 +1,53 @@
+# -----------------------------
+# PROJECT 1: Student Information Card
+# -----------------------------
+
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+course = input("Enter your course: ")
+
+student = {
+    "name": name,
+    "age": age,
+    "course": course
+}
+
+print("----- Student Card -----")
+print("Name:", student["name"])
+print("Age:", student["age"])
+print("Course:", student["course"])
+
+
+# -----------------------------
+# PROJECT 2: Fruit List Manager
+# -----------------------------
+
+fruits = ["apple", "banana", "mango"]
+
+print("\nCurrent fruits:", fruits)
+
+new_fruit = input("Add a fruit: ")
+fruits.append(new_fruit)
+
+remove_fruit = input("Remove a fruit: ")
+fruits.remove(remove_fruit)
+
+print("Updated fruits:", fruits)
+
+
+# -----------------------------
+# PROJECT 3: Unique Number Checker
+# -----------------------------
+
+numbers = set()
+
+n1 = int(input("\nEnter first number: "))
+n2 = int(input("Enter second number: "))
+n3 = int(input("Enter third number: "))
+
+numbers.add(n1)
+numbers.add(n2)
+numbers.add(n3)
+
+print("Unique numbers are:", numbers)
+print("Count of unique numbers:", len(numbers))
