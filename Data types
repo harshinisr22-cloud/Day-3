@@ -1,0 +1,37 @@
+# Day 3 – Python Datatypes Practice Answers
+
+#1 Create variables: name(str), age(int), height(float)
+name = "John"
+age = 22
+height = 5.8
+
+#2 Make a list of 5 fruits
+fruits = ["apple", "banana", "orange", "grapes", "mango"]
+
+#3 Create a tuple with 3 colors
+colors = ("red", "blue", "green")
+
+#4 Create a set from [1,1,2,3,3]
+unique_set = set([1, 1, 2, 3, 3])
+
+#5 Create a dictionary with your details
+person = {"name": "John", "age": 22, "country": "India"}
+
+#6 Print type of "23"
+print(type("23"))
+
+#7 Convert "45" to int
+num = int("45")
+print(num)
+
+#8 Add an item to a list
+items = [10, 20, 30]
+items.append(40)
+
+#9 Try changing a tuple item (will show error)
+t = (1, 2, 3)
+# t[0] = 5  # TypeError
+
+#10 Create set and add a new element
+numbers = {1, 2, 3}
+numbers.add(4)
